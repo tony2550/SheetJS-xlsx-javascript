@@ -21,6 +21,7 @@ uploadExcel.addEventListener('click', function () {
         );
         let jsonObject = JSON.stringify(rowObject);
         jsonData.innerHTML = jsonObject;
+        console.log(rowObject);
         console.log(jsonObject);
       });
     };
